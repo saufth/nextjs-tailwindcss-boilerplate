@@ -17,6 +17,7 @@ const Hero = () => {
       <Navbar />
 
       <Container auto fullHeight centerAlignment='start'>
+
         <div className={styles.greeting}>
           <span>Hi</span> 👋 <span>I&apos;m Saúl, a modern</span>
         </div>
@@ -36,13 +37,7 @@ const Hero = () => {
           />
         </div>
 
-        <BgSteamAnimation
-          items={iconsData}
-          steam='northeast'
-          delay={777}
-        />
-
-        <div className=''></div>
+        <BgSteamAnimation items={iconsData} steam='northeast' delay={777} />
 
       </Container>
 
