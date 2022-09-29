@@ -1,0 +1,24 @@
+.chip {
+  @apply
+    /* Layout */
+    overflow-hidden
+    /* Typography */
+    font-proxnova-semi
+    text-sm sm:text-base lg:text-lg
+    text-zinc-900
+    /* Background */
+    bg-white/10
+    /* Filters */
+    backdrop-saturate-[3]
+    backdrop-blur-sm
+    /* Spacing */
+    py-0.5
+    px-3.5 lg:px-4
+    /* Shadow */
+    shadow-center-sm
+    shadow-razzle-dazzle-rose
+    /* Border */
+    border
+    border-zinc-600
+    rounded-full;
+}

@@ -1,0 +1,19 @@
+.avatar {
+  @apply
+    /* Sizing */
+    w-16 sm:w-18 lg:w-20
+    h-16 sm:h-18 lg:h-20
+    /* Layout */
+    overflow-hidden
+    /* Background */
+    bg-white/10
+    /* Filters */
+    backdrop-saturate-[4]
+    backdrop-blur-sm
+    /* Border */
+    rounded-full
+    /* Shadow */
+    shadow-center-sm
+    shadow-blue-violet;
+}
+

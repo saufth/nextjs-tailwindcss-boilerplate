@@ -1,0 +1,36 @@
+.hero {
+  @apply
+    /* Sizing */
+    w-full
+    h-xl sm:h-2xl lg:h-3xl
+    /* Layout */
+    overflow-hidden
+    /* Background */
+    bg-gradient-to-r
+    from-button-blue
+    via-button-blue
+    to-cyan-cornflower-blue;
+  clip-path: polygon(24% 0%, 100% 0, 100% 94%, 0 100%, 0 100%, 0 0);
+}
+
+.greeting {
+  @apply
+    /* Typography */
+    [&>span]:font-proxnova-semi
+    [&>span]:sm:text-xl [&>span]:lg:text-2xl
+    [&>span]:text-transparent
+    /* Background */
+    [&>span]:bg-clip-text
+    [&>span]:bg-gradient-to-r
+    [&>span]:from-zinc-800
+    [&>span]:via-zinc-800
+    [&>span]:to-black
+    /* Spacing */
+    mb-3;
+}
+
+.location {
+  @apply
+    /* Spacing */
+    mt-5 sm:mt-8;
+}
