@@ -1,8 +1,8 @@
 {
-  "name": "nextjs-tailwindcss-boilerplate",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/saufth/nextjs-tailwindcss-boilerplate.git",
+  "homepage": "https://github.com/saufth/portfolio.git",
   "engines": {
     "node": "16.16.0",
     "yarn": "1.22.19",
